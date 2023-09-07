@@ -4,7 +4,7 @@ pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio===0.7.2 -f ht
 pip install transformers==4.6.0
 pip install -U huggingface_hub
 pip install accelerate==0.5.1
-pip install datasets==2.6.1
+pip install datasets==2.11
 pip install wandb
 pip install scikit-learn
 pip install openai
