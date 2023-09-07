@@ -45,13 +45,13 @@ Following [**Gururangan et al. (2020)**](https://arxiv.org/abs/2004.10964) and [
 
 The datasets can be downloaded from [the code associated with the Don't Stop Pretraining ACL 2020 paper](https://github.com/allenai/dont-stop-pretraining).
 Please create a folder `./dataset` in the root directory and put the downloaded datasets into it.
-After downloading, please convert them to *`.tsv` files referring to the script [convert_dont_stop_corpus.py](./data/convert_dont_stop_corpus.py).
+After downloading, please convert them to *`.tsv` files referring to the script [convert_dont_stop_corpus.py](https://github.com/shizhediao/T-DNA/blob/main/data/convert_dont_stop_corpus.py).
 
 To construct the candidate prompt vocabulary, we use the script provided by [the code associated with the Taming Pre-trained Language Models with N-gram Representations for Low-Resource Domain Adaptation](https://github.com/shizhediao/T-DNA) and made some changes. Please run `pmi_ngram.py` with the following parameters:
    * `--dataset`: the path of training data file
    * `--output_dir`: the path of output directory
 
-You can download the candidate prompt vocabulary [here](https://drive.google.com/file/d/1Yk6JSYKXrG356o8rs2dtMTOIBJgSJOGE/view?usp=share_link). 
+You can download the candidate prompt vocabulary [here](https://drive.google.com/file/d/1-Mibhq_1XmtVR0jECp_rBlFbvwmgTCDS/view?usp=drive_link). 
 
 ## Contact information
 
