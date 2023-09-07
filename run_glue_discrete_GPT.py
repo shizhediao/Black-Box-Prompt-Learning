@@ -647,7 +647,7 @@ def main():
                     
                     prompt_optimizer.zero_grad()
 
-                    derivative = [-1 / prompts_probs] * args.sample_size
+                    derivative = (-1 / prompts_probs).repeat(args.sample_size, 1, 1)
                     for k, prompts_discrete_indices in enumerate(prompts_discrete_indices_list):
                         for i in range(prompt_length):
                             derivative[k][i][prompts_discrete_indices[i]] *= -1

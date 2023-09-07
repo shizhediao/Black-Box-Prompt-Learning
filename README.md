@@ -61,7 +61,7 @@ For personal communication related to BDPL, please contact Shizhe Diao (`sdiaoaa
 
 ## Citation
 
-If you use or extend our work, please cite the following paper:
+If you use or extend our work, please cite the following [paper](https://arxiv.org/abs/2201.08531):
 ```
 @article{diao2023black,
   title={Black-box Prompt Learning for Pre-trained Language Models},
